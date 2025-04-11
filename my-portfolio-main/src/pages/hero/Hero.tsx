@@ -8,7 +8,7 @@ const Hero = () => {
     {
       title: "GitHub",
       tag: <VscGithubInverted size={20} />,
-      url: "https://github.com/jagadish018",
+      url: "https://github.com/ardhyaniru",
     },
     {
       title: "Instagram",
@@ -18,17 +18,17 @@ const Hero = () => {
     {
       title: "X/Twitter",
       tag: <FaXTwitter size={16} />,
-      url: "https://x.com/JagadishCK4056",
+      url: "",
     },
     {
       title: "LinkedIn",
       tag: <FaLinkedin size={20} />,
-      url: "https://www.linkedin.com/in/jagadish-c-k-93b729187/",
+      url: "https://www.linkedin.com/in/niranjan-aradhya-50965324b/",
     },
     {
       title: "Leetcode",
       tag: <SiLeetcode size={20} />,
-      url: "https://leetcode.com/u/jagadishck018/",
+      url: "/",
     },
   ];
 
@@ -36,13 +36,13 @@ const Hero = () => {
     <div className="w-full px-4 flex flex-col md:flex-row items-center md:items-start justify-center gap-4 max-w-screen-md mx-auto  ">
       <img
         src="/profile.JPG"
-        alt="Jagadish"
+        alt="Niranjan"
         className="rounded-full w-38 h-38 object-cover border p-1"
       />
 
       <div className="flex flex-col items-center md:items-start w-full gap-5 p-2">
         <h1 className="text-2xl md:text-3xl font-semibold text-amber-50 text-center md:text-left">
-          Jagadish C K (Fullstack Developer)
+          Niranjan K S (Fullstack Developer)
         </h1>
 
         <div className="flex flex-wrap gap-2 justify-center md:justify-start">
